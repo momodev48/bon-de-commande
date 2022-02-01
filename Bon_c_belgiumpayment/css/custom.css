@@ -1,0 +1,217 @@
+/* Add here all your CSS customizations */
+
+.contenu
+{
+    padding: 200px 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.listpart
+{
+    display: block;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imgpart
+{
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    margin-top: 12%;
+}
+.listpartdesk
+    {
+        visibility: hidden;
+        display: none;
+    }
+@media(max-width:700px)
+{
+    .imgcenter
+    {
+        max-width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .slide1img
+    {
+        opacity: .6;
+    }
+    .imgpart
+    {
+        max-width: 650px;
+        
+    }
+}
+.home-intro
+{
+    margin-bottom: 0px;
+}
+
+.faq
+{
+    padding: 3.6153846154rem 0;
+}
+.faq__row
+{
+    display: block;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 991px) {
+    .languemobile
+    {
+        display: none;
+        visibility: hidden;
+    }
+    .listpart
+    {
+        visibility: hidden;
+        display: none;
+        height: 0px;
+    }
+    .listpart *
+    {
+        visibility: hidden;
+        display: none;
+    }
+    .listpartdesk
+    {
+        visibility: visible;
+        display: block;
+    }
+    .listpartdesk img
+    {
+        width: 90%;
+    }
+    .ph
+    {
+        display: block;
+        margin: 0px;
+        padding-left: 40px;
+    }
+    .btn-primary
+    {
+        margin-top: 10px;
+    }
+    .faq__row
+    {
+        width: 70vw;
+    }
+    .images__row
+    {
+        
+    }
+    .images__titre
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+.part
+{
+    padding: 3.6153846154rem 0;
+}
+.cmt
+{
+    padding: 3.6153846154rem 0;
+}
+.comsoon
+{
+    padding: 15vh 0vh;
+}
+/*.txt-black
+{
+    color: black;
+}
+.page-header h1 
+{
+    color: black;
+}*/
+#sub-frame-error
+{
+    height: 540px;
+}
+.cmtcamarchetxt
+{
+    font-style: italic;
+    /*color: #e9b426;*/
+}
+section.section
+{
+    margin-top: 0px;
+}
+/*.paddtxt
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 70px;
+    height: auto;
+    
+}*/
+.padd-word-rotator-words
+{
+    background-color: white;
+    padding: 10px 8px;
+    color: black;
+}
+
+topphrase .word-rotator-words[class*="bg-"] b {
+	color: #499cd7;
+    background-color: white;
+	padding: 1.6px 8px;
+	padding: 0.1rem 0.5rem;
+}
+.topphrase
+{
+    margin-top: 50px;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.imgpart
+{
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    margin-right: auto;
+    margin-top: 12%;
+}
+
+
+
+.toggle > label {
+	background: #FFFFFF;
+}
+
+
+.section__partenaire
+{
+    padding: 53.84px 0px;
+}
+.merci
+{
+    padding-top: 5%;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.merci__text
+{
+    font-size: 20px;
+}
